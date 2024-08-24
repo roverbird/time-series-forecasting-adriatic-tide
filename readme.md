@@ -28,8 +28,16 @@ There is a very informative article, [Seasonality Analysis and Forecast in Time 
 2. **Exploratory Data Analysis (EDA)**:
    - Visualize the data to understand trends, seasonality, and any anomalies.
 
+![Plot example 1](https://raw.githubusercontent.com/roverbird/time-series-forecasting-adriatic-tide/seasonTide/data/scatter_plot_x_freq.png)
+
+_Plot of Koper's 30 days of tide data_
+
 3. **Seasonal Decomposition**:
    - Decompose the time series into trend, seasonal, and residual components to better understand the underlying patterns.
+
+![Plot example 2](https://raw.githubusercontent.com/roverbird/time-series-forecasting-adriatic-tide/seasonTide/data/seasonal_decomposition_x_freq.png)
+
+_Time series divided into trend, seasonal and residual components_
 
 4. **Model Selection and Training**:
    - Use the SARIMA (Seasonal AutoRegressive Integrated Moving Average) model to forecast tide levels.
@@ -38,6 +46,10 @@ There is a very informative article, [Seasonality Analysis and Forecast in Time 
 5. **Evaluation**:
    - Split the data into training and testing sets.
    - Fit the model on the training data and evaluate its performance on the test data using metrics like Mean Squared Error (MSE).
+
+![Plot example 3](https://raw.githubusercontent.com/roverbird/time-series-forecasting-adriatic-tide/seasonTide/data/sarima_forecast.png)
+
+_Predicting and 12 hours of Adriatic tide level observations_
 
 6. **Visualization**:
    - Create plots to visualize the training data, test data, and forecast results.
@@ -184,6 +196,14 @@ Here’s a brief comment on the contents of the repository:
 │   ├── scatter_plot_x_freq.png
 │   └── seasonal_decomposition_x_freq.png
 └── readme.md
+
+## Context and Importance of Tide Forecasting
+
+The recent devastating floods in Venice, often referred to as "acqua alta" (high water), highlight the critical need for accurate tide forecasting systems. Venice, known for its intricate network of canals and historic architecture, is particularly vulnerable to sea level rise and extreme tidal events. Such floods not only disrupt daily life but also pose significant risks to cultural heritage and infrastructure.
+
+Similarly, the vicinity of Koper, including the nearby town of Izola, faces its own challenges with frequent flooding. Izola, located just a few kilometers from Koper, has recently experienced regular inundations due to rising tide levels. This highlights the importance of having a robust prediction system for tide levels in the region. Accurate forecasting can provide advance warning, enabling better preparation and mitigation strategies for both Koper and its neighboring communities. Such systems help in minimizing the impacts of flooding on infrastructure, local economies, and daily activities.
+
+In this project, we show how one can develop and apply machine learning techniques to forecast tide levels, which could be a crucial step towards enhancing flood resilience in the region. Is there a public system to predic floods in Kopen, Izola and Piran in place, similar to Venice? Did anyone bother?
 
 ## License
 
