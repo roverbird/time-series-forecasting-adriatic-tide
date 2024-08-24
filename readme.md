@@ -53,7 +53,7 @@ _Time series divided into trend, seasonal and residual components_
 
 ![Plot example 3](https://github.com/roverbird/time-series-forecasting-adriatic-tide/blob/main/seasonTide/data/sarima_forecast.png)
 
-_Predicting and 12 hours of Adriatic tide level observations_
+_Predicting 12 hours of Adriatic tide level vs real observations_
 
 6. **Visualization**:
    - Create plots to visualize the training data, test data, and forecast results.
@@ -203,7 +203,7 @@ Here’s a brief comment on the contents of the repository:
 
 ![Adriatic Sea](https://github.com/roverbird/time-series-forecasting-adriatic-tide/blob/main/seasonTide/data/JadranskoMorje.png)
 
-_Rought Adriatic sea near Koper during the flood season_
+_Rough Adriatic sea near Koper during the flood season_
 
 ## Context and Importance of Tide Forecasting
 
