@@ -4,6 +4,10 @@ Welcome to the tide forecasting project for Koper, Slovenia. This repository con
 
 We will use this model for creating a forecast: Seasonal Autoregressive Integrated Moving Average (SARIMA)
 
+![Flood in Izola near Koper](https://github.com/roverbird/time-series-forecasting-adriatic-tide/blob/main/seasonTide/data/floodIzola.png)
+
+_A recent flood in Izola near Koper_
+
 ## Overview
 
 Tide forecasting is used in various applications, including maritime navigation, coastal management, and environmental monitoring. In this project, we'll use historical tide level data to develop a predictive model that can forecast future tide levels. We'll leverage time series analysis and machine learning techniques to achieve accurate predictions.
@@ -196,6 +200,10 @@ Here’s a brief comment on the contents of the repository:
 │   ├── scatter_plot_x_freq.png
 │   └── seasonal_decomposition_x_freq.png
 └── readme.md
+
+![Adriatic Sea](https://github.com/roverbird/time-series-forecasting-adriatic-tide/blob/main/seasonTide/data/JadranskoMorje.png)
+
+_Rought Adriatic sea near Koper during the flood season_
 
 ## Context and Importance of Tide Forecasting
 
