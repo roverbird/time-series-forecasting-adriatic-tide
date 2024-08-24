@@ -28,14 +28,14 @@ There is a very informative article, [Seasonality Analysis and Forecast in Time 
 2. **Exploratory Data Analysis (EDA)**:
    - Visualize the data to understand trends, seasonality, and any anomalies.
 
-![Plot example 1](https://raw.githubusercontent.com/roverbird/time-series-forecasting-adriatic-tide/seasonTide/data/scatter_plot_x_freq.png)
+![Plot example 1](https://github.com/roverbird/time-series-forecasting-adriatic-tide/blob/main/seasonTide/data/scatter_plot_x_freq.png)
 
 _Plot of Koper's 30 days of tide data_
 
 3. **Seasonal Decomposition**:
    - Decompose the time series into trend, seasonal, and residual components to better understand the underlying patterns.
 
-![Plot example 2](https://raw.githubusercontent.com/roverbird/time-series-forecasting-adriatic-tide/seasonTide/data/seasonal_decomposition_x_freq.png)
+![Plot example 2](https://github.com/roverbird/time-series-forecasting-adriatic-tide/blob/main/seasonTide/dataseasonal_decomposition_x_freq.png)
 
 _Time series divided into trend, seasonal and residual components_
 
@@ -47,7 +47,7 @@ _Time series divided into trend, seasonal and residual components_
    - Split the data into training and testing sets.
    - Fit the model on the training data and evaluate its performance on the test data using metrics like Mean Squared Error (MSE).
 
-![Plot example 3](https://raw.githubusercontent.com/roverbird/time-series-forecasting-adriatic-tide/seasonTide/data/sarima_forecast.png)
+![Plot example 3](https://github.com/roverbird/time-series-forecasting-adriatic-tide/blob/main/seasonTide/datasarima_forecast.png)
 
 _Predicting and 12 hours of Adriatic tide level observations_
 
