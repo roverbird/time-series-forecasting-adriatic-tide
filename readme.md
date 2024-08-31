@@ -148,11 +148,9 @@ Since the p-value is much smaller than the typical significance level (0.05), an
 
 This project demonstrates how machine learning techniques can be applied to time series data for tide level forecasting. The SARIMA model provides a robust approach to capturing both seasonal and trend components in the tide data. Further refinements and exploration of advanced models could improve the accuracy of long-term forecasts.
 
-## Future Work
+## What's next?
 
-- Explore additional models (e.g., Prophet, LSTM) for better performance.
-- Incorporate external factors such as weather data for improved accuracy.
-- Extend the forecast horizon and evaluate the model's robustness over longer periods.
+Check this out, a repo with an implementation of **Singular Spectrum Analysis (SSA)** for time series! Singualar Spectrum Analysis (SSA), or the Caterpillar ("гусеница") is said to be superior to SARIMA when making forecasts on real-world data where models are unknown. Try this script to experiment with your time series dataset: [Singular Spectrum Analysis for Time Series Forecasting](https://github.com/roverbird/caterpillar-ssa-timeseries-forecasting).
 
 ## Dependencies
 
@@ -187,19 +185,6 @@ Here’s a brief comment on the contents of the repository:
   - **`seasonal_decomposition_x_freq.png`**: Visualization of the seasonal decomposition of tide data.
 
 - **`readme.md`**: Provides an overview of the project, including data description, methodology, and results.
-
-/seasonTide/
-├── bin
-│   ├── tideAFD.py
-│   ├── tideDecomp.py
-│   ├── tideForecast.py
-│   └── tideTest.py
-├── data
-│   ├── input.csv
-│   ├── sarima_forecast.png
-│   ├── scatter_plot_x_freq.png
-│   └── seasonal_decomposition_x_freq.png
-└── readme.md
 
 ![Adriatic Sea](https://github.com/roverbird/time-series-forecasting-adriatic-tide/blob/main/seasonTide/data/JadranskoMorje.png)
 
